@@ -21,7 +21,7 @@ paginate:               6 # Number of posts displayed on blog page
 paginate_path:          "/blog/:num/" # Blog path
 
 navbar:
-  layout:               default # default, center
+  layout:               center # default, center
   color:                dark # text color, dark or light
   animation:            true
   sticky:               true
