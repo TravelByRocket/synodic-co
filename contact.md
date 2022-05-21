@@ -2,7 +2,7 @@
 width: xlarge
 section: small
 navbar:
-  sticky: true
+  sticky: false
   scroll_up: true
   animation: true
   transparent: true

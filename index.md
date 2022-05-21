@@ -1,7 +1,7 @@
 ---
 width: full
 navbar:
-  sticky: true
+  sticky: false
   scroll_up: true
   animation: true
   transparent: true

@@ -6,7 +6,7 @@
 
 # Site settings
 title:                  Synodic Studio
-description:            Custom iOS apps and interactive art installations
+description:            iOS App Development
 url:                    "https://synodic.co"
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
