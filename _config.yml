@@ -29,8 +29,8 @@ navbar:
 
 footer:                 # Default footer image settings
   style:                secondary # default, muted, primary, secondary
-  layout:               columns # center or columns
-  copyright:            Copyright Synodic LLC 2022
+  layout:               center # center or columns
+  copyright:            Copyright Synodic LLC
 
 mailchimp:
   form_action:          000000

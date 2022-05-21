@@ -1,19 +1,5 @@
 # Center style footer navigation
 center:
-  - title: Services
-    url: /services/
-
-  - title: News
-    url: /blog/
-
-  - title: Jurisdictions
-    url: /jurisdictions/
-
-  - title: Directory
-    url: /directory/
-
-  - title: Contact
-    url: /contact/
 
 
 # Columns style footer navigation
