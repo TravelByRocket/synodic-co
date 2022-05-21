@@ -5,9 +5,9 @@
 # If you change this file, please restart the server process.
 
 # Site settings
-title:                  Eon
-description:            Multipurpose Jekyll theme.
-url:                    "https://eon.unbound.studio" # Site base hostname & protocol, e.g. http://example.com
+title:                  Synodic Studio
+description:            Custom iOS apps and interactive art installations
+url:                    "https://synodic.co"
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
 logo:                   logo-dark.svg
@@ -20,54 +20,6 @@ template:               base
 paginate:               6 # Number of posts displayed on blog page
 paginate_path:          "/blog/:num/" # Blog path
 
-# Default author settings
-author:
-  name:                 Pete Seth
-  avatar:               avatar-tom.png
-  title:                Support     
-  bio:                  I am the CEO of this company, loved by everyone, just plain awesome so you want to follow me all the time.
-  url:
-  email:                info@blacompany.com
-  website:
-  facebook:             https://www.facebook.com/
-  flickr:
-  dribbble:
-  github:
-  googleplus:
-  instagram:            https://www.instagram.com/
-  linkedin:
-  pinterest:
-  twitter:
-  vimeo:
-  youtube:
-
-# Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
-authors:
-  john:
-    name:               John Brown
-    title:              Support     
-    avatar:             avatar-john.png
-  evan:
-    name:               Evan Wells
-    title:              Support    
-    avatar:             avatar-evan.png
-  sara:
-    name:               Sara Galen
-    title:              Lead Developer     
-    avatar:             avatar-sara.png
-  alex:
-    title:              Design Engineer     
-    name:               Alex Koch
-    avatar:             avatar-alex.png
-  daniel:
-    title:              Developer      
-    name:               Daniel Shultz
-    avatar:             avatar-daniel.png
-  tom:
-    title:              Developer     
-    name:               Tom Farrell
-    avatar:             avatar-tom.png
-
 navbar:
   layout:               default # default, center
   color:                dark # text color, dark or light
@@ -78,7 +30,7 @@ navbar:
 footer:                 # Default footer image settings
   style:                secondary # default, muted, primary, secondary
   layout:               columns # center or columns
-  copyright:            Made by <a href="https://unbound.studio/">Unbound Studio</a> in Mexico City.
+  copyright:            Copyright Synodic LLC 2022
 
 mailchimp:
   form_action:          000000
@@ -107,15 +59,15 @@ social_share:
 
 # Social buttons
 social_networks:
-  email:                info@blacompany.com
+  email:                
   website:
-  facebook:             https://www.facebook.com/
+  facebook:             
   flickr:
   dribbble:
-  github:
+  github:               https://github.com/TravelByRocket
   googleplus:
-  instagram:            https://www.instagram.com/
-  linkedin:
+  instagram:            
+  linkedin:             https://www.linkedin.com/in/bryancostanza/
   pinterest:
   twitter:
   vimeo:
