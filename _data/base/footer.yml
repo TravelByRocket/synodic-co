@@ -1,5 +1,7 @@
 # Center style footer navigation
 center:
+  - title: Contact
+    url: /contact
 
 
 # Columns style footer navigation
