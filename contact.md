@@ -1,11 +1,11 @@
 ---
-width: xlarge
-section: small
+width: medium
+section: medium
 navbar:
   sticky: false
   scroll_up: true
   animation: true
-  transparent: true
+  transparent: false
 ---
 
 {% include typeform.html %}

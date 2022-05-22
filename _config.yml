@@ -22,13 +22,13 @@ paginate_path:          "/blog/:num/" # Blog path
 
 navbar:
   layout:               center # default, center
-  color:                dark # text color, dark or light
+  color:                light # text color, dark or light
   animation:            true
   sticky:               true
   search:               false
 
 footer:                 # Default footer image settings
-  style:                secondary # default, muted, primary, secondary
+  style:                primary # default, muted, primary, secondary
   layout:               center # center or columns
   copyright:            Copyright Synodic LLC
 

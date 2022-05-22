@@ -1,5 +1,5 @@
 // Global variables
-$global-primary-background:                     #1B33BF;
+$global-primary-background:                     #191919;
 $global-secondary-background:                   #000;
 $global-success-background:                     #32d296;
 $global-warning-background:                     #faa05a;
@@ -91,7 +91,7 @@ $inverse-logo-hover-color:                      #fff;
 
 // Navigation variables
 $nav-primary-item-font-size:                    $global-large-font-size;
-$navbar-background:                             #fff;
+$navbar-background:                             $global-primary-background;
 $navbar-nav-item-color:                         #333;
 $navbar-nav-item-hover-color:                   #000;
 $navbar-nav-item-active-color:                  #000;

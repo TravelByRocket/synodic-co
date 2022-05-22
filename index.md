@@ -4,7 +4,7 @@ navbar:
   sticky: false
   scroll_up: true
   animation: true
-  transparent: true
+  transparent: false
 ---
 
 [comment]: # (This actually is the most platform independent comment)
@@ -15,6 +15,7 @@ navbar:
     section_size="small"
     section_header_align="center"
     grid="1-2"
+    section_background="primary"
   %}
   
 {% else %}
