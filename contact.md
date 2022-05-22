@@ -8,4 +8,5 @@ navbar:
   transparent: false
 ---
 
-{% include typeform.html %}
+{% include typeform.html 
+  section_background="primary" %}
