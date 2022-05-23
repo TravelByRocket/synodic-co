@@ -32,6 +32,7 @@ header:
   section_size="medium"
   section_background="primary"
   section_container="medium"
+  section_padding_remove="top"
 %}
 
 {% include gallery.html 
