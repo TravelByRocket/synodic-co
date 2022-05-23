@@ -14,7 +14,7 @@ navbar:
   {% include portfolio.html 
     section_size="small"
     section_header_align="center"
-    grid="1-2"
+    grid="1-1"
     section_background="primary"
   %}
   
