@@ -1,157 +1,320 @@
-# Welcome to Plus!
+# Welcome to Jekyll!
 #
-# This config file affects your whole blog.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
-# If you change this file, please restart the server process.
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-# Site settings
-title:                  Synodic Studio
-description:            iOS App Development
-url:                    "https://synodic.co"
-baseurl:                # Site subpath, e.g. /blog
-lang:                   en
-logo:                   logo-dark.svg
-logo_light:             logo-light.svg
-permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
-template:               base
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-paginate:               6 # Number of posts displayed on blog page
-paginate_path:          "/blog/:num/" # Blog path
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-navbar:
-  layout:               center # default, center
-  color:                light # text color, dark or light
-  animation:            true
-  sticky:               true
-  search:               false
+# Site Settings
+locale                   : "en-US"
+title                    : "Synodic Studio"
+title_separator          : "-"
+subtitle                 : "iOS Development, UI/UX Design, Information Visualization" # site tagline that appears below site title in masthead
+name                     : "Synodic LLC"
+description              :
+url                      : "https://synodic.co" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : TravelByRocket/synodic-co # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  giscus:
+    repo_id              : # Shown during giscus setup at https://giscus.app
+    category_name        : # Full text name of the category
+    category_id          : # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+  hide                   : # true, false (default)
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+lunr:
+  search_within_pages    : # true, false (default)
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+naver_site_verification  :
+yandex_site_verification :
+baidu_site_verification  :
 
-footer:                 # Default footer image settings
-  style:                primary # default, muted, primary, secondary
-  layout:               center # center or columns
-  copyright:            Copyright Synodic LLC
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
 
-mailchimp:
-  form_action:          000000
-  hidden_name:          000000
-  
-google_analytics:       # Google analytics code, get your code here https://www.google.com/analytics/
-google_maps_api_key:    # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
 
-disqus:
-  shortname:            # Disqus comments shortname, requires Disqus account https://disqus.com/
 
-instagram_accesstoken:  
+# Site Author
+author:
+  name             : "Bryan Costanza"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:bryan.yeprd@synodic.co"
+    - label: "Personal"
+      icon: "fas fa-fw fa-link"
+      # url: "http://bryancostanza.com"
+    - label: "Projects"
+      icon: "fas fa-fw fa-link"
+      # url: "http://kj6.dev"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      # url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/TravelByRocket"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/bryancostanza"
 
-donations:
-  paypal:
-    id:                 # PayPal button ID
-    navbar:             # true
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:bryan.yeprd@synodic.co"
+    - label: "Personal"
+      icon: "fas fa-fw fa-link"
+      # url: "http://bryancostanza.com"
+    - label: "Projects"
+      icon: "fas fa-fw fa-link"
+      # url: "http://kj6.dev"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      # url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: "https://github.com/TravelByRocket"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/bryancostanza"
 
-# Social share buttons
-social_share:
-  twitter:              true
-  facebook:             true
-  linkedin:             true
-  pinterest:            true
-  reddit:               true
 
-# Social buttons
-social_networks:
-  email:                
-  website:
-  facebook:             
-  flickr:
-  dribbble:
-  github:               https://github.com/TravelByRocket
-  googleplus:
-  instagram:            
-  linkedin:             https://www.linkedin.com/in/bryancostanza/
-  pinterest:
-  twitter:
-  vimeo:
-  youtube:
-
-# Build settings
-markdown:               kramdown
-highlighter:            rouge
-kramdown:
-  toc_levels:           "2"
-
-plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-sitemap
-  - jemoji
-
-exclude: 
+# Reading Files
+include:
+  - .htaccess
+#  - _apps
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - vendor
+  - .asset-cache
   - .bundle
+  - .jekyll-assets-cache
   - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
   - config
   - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - log
-  - tmp
-  - Rakefile
-  - package.json
-  - CHANGELOG
+  - Gruntfile.js
+  - gulpfile.js
   - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
   - README
-  - /docs
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+  - /Resources
+  - _drafts
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
 sass:
-  style:                compressed
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# collections:
+
+# Outputting
+permalink: /blog/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: MST # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Collections
 collections:
-  blocks:
-    output:             false
-  sidebars:
-    output:             false
-  faqs:
-    output:             false
-  portfolio:
-    output:             true
+  apps:
+    output: true
+#    permalink: /:path/
+    permalink: /:collection/:path/
+#    permalink: /apps/:path/
+  pages:
+    output: false
+#    permalink: /:path/
+    permalink: /:collection/:path/
+#  recipes:
+#    output: true
+#    permalink: /:collection/:path/
+#  pets:
+#    output: true
+#    permalink: /:collection/:path/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
 
 # Defaults
 defaults:
   # _posts
   - scope:
-      path:                 ""
-      type:                 posts
+      path: ""
+      type: posts
     values:
-      layout:               post
-      section:              large
-      sidebar: 
-        right:              blog
-      comments:             # true
-      share:                true
-      related:              true
-      mailchimp:            true
-      navbar:
-        transparent:        true
-        transparent_color:  light
-      header:
-        layout:             center
-        background_overlay: "rgba(0, 0, 0, 0.5)"
-        color:              light
-        header_size:        large
-        heading_size:       medium
-        parallax:           true
-  # _pages
-  - scope:
-      path:                 ""
-      type:                 pages
-    values:
-      layout:               page
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
   # _portfolio
   - scope:
-      path:                 ""
-      type:                 portfolio
+      path: "/apps/"
+      type: portfolio
     values:
-      layout:               page
+      layout: single
+      author_profile: false
+      share: true

@@ -46,4 +46,16 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+# Ruby Gem
+*.gem
+.bundle
+Gemfile.lock
+**/vendor/bundle
+
+# Node.js and NPM
+node_modules
+npm-debug.log*
+package-lock.json
+codekit-config.json
+
 # End of https://www.toptal.com/developers/gitignore/api/jekyll,macos
