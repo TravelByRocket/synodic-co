@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -113,12 +113,15 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/TravelByRocket"
-    - label: "Tech Projects"
+    - label: "Projects"
       icon: "fas fa-microchip"
       url: "http://kj6.dev"
-    - label: "My Notes"
+    - label: "Notes"
       icon: "fas fa-brain"
       url: "http://bryancostanza.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bryancostanza/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/bryancostanza"
@@ -126,30 +129,26 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:bryan.yeprd@synodic.co"
-    - label: "Personal"
-      icon: "fas fa-fw fa-link"
-      # url: "http://bryancostanza.com"
-    - label: "Projects"
-      icon: "fas fa-fw fa-link"
-      # url: "http://kj6.dev"
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      # url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/TravelByRocket"
+      url: "https://github.com/TravelByRocket"
+    - label: "Projects"
+      icon: "fas fa-microchip"
+      url: "http://kj6.dev"
+    - label: "Notes"
+      icon: "fas fa-brain"
+      url: "http://bryancostanza.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bryancostanza/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/bryancostanza"
+      url: "https://instagram.com/bryancostanza"
 
 
 # Reading Files
 include:
   - .htaccess
-#  - _apps
   - _pages
 exclude:
   - "*.sublime-project"
@@ -224,10 +223,9 @@ collections:
   apps:
     output: true
     permalink: /:collection/:path/
-  pages:
-    output: false
-#    permalink: /:path/
-    permalink: /:collection/:path/
+#  pages:
+#    output: false
+#    permalink: /:collection/:path/
 
 # Plugins (previously gems:)
 plugins:
@@ -258,10 +256,10 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /blog/categories/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /blog/tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
