@@ -223,7 +223,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 collections:
   apps:
     output: true
-    permalink: /:collection/:name/
+    permalink: /:collection/:path/
   pages:
     output: false
 #    permalink: /:path/
