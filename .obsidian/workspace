@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f1c9984f9e17be6e",
+        "id": "81a2c95ce8a88c72",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_posts/2022-04-08-get-extents-for-all-geopds.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-04-08-get-extents-for-all-geopds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-04-08-get-extents-for-all-geopds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2022-04-08-get-extents-for-all-geopds.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,12 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f1c9984f9e17be6e",
+  "active": "81a2c95ce8a88c72",
   "lastOpenFiles": [
+    "list-margins.md",
+    "_drafts/style2.md",
+    "_drafts/ontap-vs-button.md",
+    "_drafts/strava.md",
+    "_drafts/style.md",
+    "_drafts/2022-07-23-introducing-so-much-coffee.md",
+    "_posts/2022-04-08-get-extents-for-all-geopds.md",
     "_posts/2022-04-08-forest-directories.md",
     "_posts/2022-04-05-geopdf-to-geojson.md",
-    "_posts/2022-04-08-get-extents-for-all-geopds.md",
-    "_apps/so-much-coffee.md",
-    "_apps/awesome-timer.md"
+    "_apps/so-much-coffee.md"
   ]
 }

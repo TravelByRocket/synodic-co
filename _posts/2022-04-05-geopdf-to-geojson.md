@@ -1,5 +1,5 @@
 ---
-title: "GeoPDF to GeoJSON"
+title: "GeoPDF to GeoJSON Basics"
 categories:
   - Wild Camp
 tags:

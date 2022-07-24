@@ -296,6 +296,7 @@ defaults:
       related: true
       toc: true
       toc_sticky: true
+      show_date: true
   # _apps
   - scope:
       path: "_apps"
