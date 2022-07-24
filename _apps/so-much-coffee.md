@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 header:
   image: /assets/so-much-coffee/mockup.png
-  teaser: /assets/so-much-coffee/mockup.png
+  teaser: /assets/so-much-coffee/mockup-th.png
 sidebar: 
   - title: "Role"
     # image: "/assets/icon.svg"

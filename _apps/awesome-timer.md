@@ -3,7 +3,7 @@ title: "Awesome Timer"
 excerpt: "When was the last time you did something awesome?"
 header:
   image: assets/awesome-timer/mockup.png
-  teaser: assets/awesome-timer/mockup.png
+  teaser: assets/awesome-timer/mockup-th.png
 sidebar: 
   - title: "Role"
     # image: "/assets/icon.svg"

@@ -3,7 +3,7 @@ title: "No Place to Go"
 excerpt: "Handheld interaction for a socially distanced haunted house."
 header:
   image:  /assets/no-place-to-go/mockup.png
-  teaser: /assets/no-place-to-go/mockup.png
+  teaser: /assets/no-place-to-go/mockup-th.png
 sidebar: 
   - title: "Role"
     text: "Developer, Designer"
