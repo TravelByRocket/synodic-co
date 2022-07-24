@@ -1,5 +1,5 @@
 ---
-title: "GeoJSON to GeoPDF"
+title: "GeoPDF to GeoJSON"
 categories:
   - Wild Camp
 tags:
@@ -8,7 +8,6 @@ tags:
   - GeoPDF
   - Python
   - Bash
-  # - MapKit
   - GDAL
 ---
 

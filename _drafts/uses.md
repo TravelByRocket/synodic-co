@@ -15,16 +15,16 @@ layout: single
 - pCloud
 - Bear
 - Obsidian
-- 2Do
-- Bear
 - TextExpander
 - Alfred
-- Mindnode
-- 1Password
 - XCodes
 - Github
 	- CLI
 	- Desktop
-- DevUtils
-- XCOrganizer
 - Setapp
+- Mindnode
+	- DevUtils
+	- XCOrganizer
+	- TextSniper
+	- Gifox
+	- Sip

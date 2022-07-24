@@ -4,9 +4,9 @@ main:
     url: /apps/
   - title: "Blog"
     url: /blog/
-  - title: "Uses"
-    url: /uses/
-  - title: "About"
-    url: /about/
+#  - title: "Uses"
+#    url: /uses/
+#  - title: "About"
+#    url: /about/
   - title: "Contact"
     url: /contact/

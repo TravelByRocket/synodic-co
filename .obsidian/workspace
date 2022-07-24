@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "0b727e01edc887ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1c9984f9e17be6e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/2022-04-08-get-extents-for-all-geopds.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fbb8cf43ca83a118",
+    "type": "split",
+    "children": [
+      {
+        "id": "cea0695834ee6e72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4a4fa493dd41958",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2581a6258512dbf0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "59c992db396cea6c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 387.5
+  },
+  "right": {
+    "id": "d545bd94fea5babc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9840b3cac6c4db81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "468dc4304a0e7362",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2022-04-08-get-extents-for-all-geopds.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f125c65fdee2d43c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/2022-04-08-get-extents-for-all-geopds.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "97bb9e6284e45eed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e597d57c1c3b69ab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/2022-04-08-get-extents-for-all-geopds.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f1c9984f9e17be6e",
+  "lastOpenFiles": [
+    "_posts/2022-04-08-forest-directories.md",
+    "_posts/2022-04-05-geopdf-to-geojson.md",
+    "_posts/2022-04-08-get-extents-for-all-geopds.md",
+    "_apps/so-much-coffee.md",
+    "_apps/awesome-timer.md"
+  ]
+}
