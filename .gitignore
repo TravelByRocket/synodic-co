@@ -5,7 +5,6 @@ node_modules
 # Edit at https://www.toptal.com/developers/gitignore?templates=jekyll,macos
 
 ### Jekyll ###
-_site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
