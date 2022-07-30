@@ -1,0 +1,4 @@
+- button vs onTapGesture  
+Question coming up from PR 119: When are we using Button vs onTapGesture? The former has animated interaction (especially, while being pressed) while the former does not. I’ve tended to use onTapGesture when I don’t want the appearance to change at all or when I want some sort of view that is not a button to do button-like actions. So I would default to Button but then use onTapGesture when that just doesn’t seem right or doesn’t work.  
+  
+I see one other nuance here is that I was using .buttonStyle(.plain) , which removes most of the  ‘action’ of a button but still I would think that Button in general is preferred unless the intent is different or that approach doesn’t work for some reason.  
