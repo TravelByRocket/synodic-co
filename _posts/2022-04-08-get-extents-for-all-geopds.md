@@ -7,7 +7,7 @@ tags:
   - gdal
 ---
 
-In a preceding post [GeoJSON form GeoPDF]({% post_url 2022-04-05-geopdf-to-geojson %}) we did some fast work to prove that we could get the data we need, but now we need to dig a little deeper to put it into a format that we think we can use. 
+In a preceding post [GeoJSON from GeoPDF]({% post_url 2022-04-05-geopdf-to-geojson %}) we did some fast work to prove that we could get the data we need, but now we need to dig a little deeper to put it into a format that we think we can use. 
 
 ## All GeoPDF Content to JSON
 Create JSON files containing all the data retrieved with the GDAL library with the script below.
