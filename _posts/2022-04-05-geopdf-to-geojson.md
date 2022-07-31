@@ -11,13 +11,13 @@ tags:
   - GDAL
 ---
 
-The United States Forest Service (USFS) provides [Motor Vehicle Use Maps](https://www.fs.usda.gov/visit/maps/mvum-faq) (MVUMs) in [GeoPDF](https://www.usgs.gov/faqs/what-geopdfr) ([more](https://en.wikipedia.org/wiki/GeoPDF)) format. I would like to put the map rectangles on a `MapKit` map as an overlay but the map extents in the PDF were difficult to get to.
+The United States Forest Service (USFS) provides [Motor Vehicle Use Maps](https://www.fs.usda.gov/visit/maps/mvum-faq) (MVUMs) in [GeoPDF](https://www.usgs.gov/faqs/what-geopdfr) ([more](https://en.wikipedia.org/wiki/GeoPDF)) format. I would like to put the map rectangles on a `MapKit` map as an overlay, but the map extents in the PDF were difficult to get to.
 
-I met a helpful resource in the Denver Devs community that pointed me toward the [`GDAL` Python libray](https://pypi.org/project/GDAL/). Between this library and the [MyGeoData](https://mygeodata.cloud/converter/geopdf-to-geojson) website I was able to get the coordinates into a [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) file in two ways. 
+I met a helpful resource in the Denver Devs community that pointed me toward the [`GDAL` Python library](https://pypi.org/project/GDAL/). Between this library and the [MyGeoData](https://mygeodata.cloud/converter/geopdf-to-geojson) website, I was able to get the coordinates into a [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) file in two ways. 
 
 ## Manually: Using MyGeoData Website
 
-This website was great for finding out what I was dealing with but I was limited to one file at a time, all by hand. Toget the GeoJSON, just upload the PDF and then select “Dataset Info”. The map extents were output as a rectangle (well, quadrilateral at least)in the following format.
+This website was great for finding out what I was dealing with, but I was limited to one file at a time, all manually. To get the GeoJSON, just upload the PDF and then select “Dataset Info”. The map extents were output as a rectangle (well, quadrilateral at least)in the following format.
 
 ```json
 {
@@ -71,7 +71,7 @@ which outputs (prettified afterward) the following content.
 }
 ```
 
-This works perfectly for a majority of the maps but 
+This works perfectly for most of the maps but 
 
 ### References
 

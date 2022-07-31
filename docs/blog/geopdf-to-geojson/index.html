@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>GeoPDF to GeoJSON Basics - Synodic Studio</title>
-<meta name="description" content="The United States Forest Service (USFS) provides Motor Vehicle Use Maps (MVUMs) in GeoPDF (more) format. I would like to put the map rectangles on a MapKit map as an overlay but the map extents in the PDF were difficult to get to.">
+<meta name="description" content="The United States Forest Service (USFS) provides Motor Vehicle Use Maps (MVUMs) in GeoPDF (more) format. I would like to put the map rectangles on a MapKit map as an overlay, but the map extents in the PDF were difficult to get to.">
 
 
   <meta name="author" content="Bryan Costanza">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="http://localhost:4000/blog/geopdf-to-geojson/">
 
 
-  <meta property="og:description" content="The United States Forest Service (USFS) provides Motor Vehicle Use Maps (MVUMs) in GeoPDF (more) format. I would like to put the map rectangles on a MapKit map as an overlay but the map extents in the PDF were difficult to get to.">
+  <meta property="og:description" content="The United States Forest Service (USFS) provides Motor Vehicle Use Maps (MVUMs) in GeoPDF (more) format. I would like to put the map rectangles on a MapKit map as an overlay, but the map extents in the PDF were difficult to get to.">
 
 
 
@@ -281,7 +281,7 @@
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="GeoPDF to GeoJSON Basics">
-    <meta itemprop="description" content="The United States Forest Service (USFS) provides Motor Vehicle Use Maps (MVUMs) in GeoPDF (more) format. I would like to put the map rectangles on a MapKit map as an overlay but the map extents in the PDF were difficult to get to.">
+    <meta itemprop="description" content="The United States Forest Service (USFS) provides Motor Vehicle Use Maps (MVUMs) in GeoPDF (more) format. I would like to put the map rectangles on a MapKit map as an overlay, but the map extents in the PDF were difficult to get to.">
     <meta itemprop="datePublished" content="2022-04-05T00:00:00-06:00">
     
 
@@ -333,13 +333,13 @@
             </nav>
           </aside>
         
-        <p>The United States Forest Service (USFS) provides <a href="https://www.fs.usda.gov/visit/maps/mvum-faq">Motor Vehicle Use Maps</a> (MVUMs) in <a href="https://www.usgs.gov/faqs/what-geopdfr">GeoPDF</a> (<a href="https://en.wikipedia.org/wiki/GeoPDF">more</a>) format. I would like to put the map rectangles on a <code class="language-plaintext highlighter-rouge">MapKit</code> map as an overlay but the map extents in the PDF were difficult to get to.</p>
+        <p>The United States Forest Service (USFS) provides <a href="https://www.fs.usda.gov/visit/maps/mvum-faq">Motor Vehicle Use Maps</a> (MVUMs) in <a href="https://www.usgs.gov/faqs/what-geopdfr">GeoPDF</a> (<a href="https://en.wikipedia.org/wiki/GeoPDF">more</a>) format. I would like to put the map rectangles on a <code class="language-plaintext highlighter-rouge">MapKit</code> map as an overlay, but the map extents in the PDF were difficult to get to.</p>
 
-<p>I met a helpful resource in the Denver Devs community that pointed me toward the <a href="https://pypi.org/project/GDAL/"><code class="language-plaintext highlighter-rouge">GDAL</code> Python libray</a>. Between this library and the <a href="https://mygeodata.cloud/converter/geopdf-to-geojson">MyGeoData</a> website I was able to get the coordinates into a <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> file in two ways.</p>
+<p>I met a helpful resource in the Denver Devs community that pointed me toward the <a href="https://pypi.org/project/GDAL/"><code class="language-plaintext highlighter-rouge">GDAL</code> Python library</a>. Between this library and the <a href="https://mygeodata.cloud/converter/geopdf-to-geojson">MyGeoData</a> website, I was able to get the coordinates into a <a href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a> file in two ways.</p>
 
 <h2 id="manually-using-mygeodata-website">Manually: Using MyGeoData Website</h2>
 
-<p>This website was great for finding out what I was dealing with but I was limited to one file at a time, all by hand. Toget the GeoJSON, just upload the PDF and then select “Dataset Info”. The map extents were output as a rectangle (well, quadrilateral at least)in the following format.</p>
+<p>This website was great for finding out what I was dealing with, but I was limited to one file at a time, all manually. To get the GeoJSON, just upload the PDF and then select “Dataset Info”. The map extents were output as a rectangle (well, quadrilateral at least)in the following format.</p>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"FeatureCollection"</span><span class="p">,</span><span class="w">
@@ -390,7 +390,7 @@ gdalinfo map.pdf <span class="nt">-json</span> | <span class="nb">tr</span> <spa
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
-<p>This works perfectly for a majority of the maps but</p>
+<p>This works perfectly for most of the maps but</p>
 
 <h3 id="references">References</h3>
 
@@ -538,7 +538,7 @@ gdalinfo map.pdf <span class="nt">-json</span> | <span class="nb">tr</span> <spa
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">In a previous post I was puzzled about why I could not find more regional maps showing where the various MVUM maps were located. If “R5” was (for some reason...</p>
+    <p class="archive__item-excerpt" itemprop="description">In a previous post, I was puzzled about why I could not find more regional maps showing where the various MVUM maps were located. If “R5” was (for some reaso...</p>
   </article>
 </div>
 
@@ -584,7 +584,7 @@ gdalinfo map.pdf <span class="nt">-json</span> | <span class="nb">tr</span> <spa
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">In a preceding post GeoJSON form GeoPDF we did some fast work to prove that we could get the data we neede but now we need to dig a little deeper to put it i...</p>
+    <p class="archive__item-excerpt" itemprop="description">In a preceding post GeoJSON form GeoPDF we did some fast work to prove that we could get the data we need, but now we need to dig a little deeper to put it i...</p>
   </article>
 </div>
 
@@ -630,7 +630,7 @@ gdalinfo map.pdf <span class="nt">-json</span> | <span class="nb">tr</span> <spa
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">In order to stay organized as I collect maps and extract data from them I wanted to create a set of directories organizing every national forest within the s...</p>
+    <p class="archive__item-excerpt" itemprop="description">To stay organized as I collect maps and extract data from them, I wanted to create a set of directories organizing every national forest within the state it ...</p>
   </article>
 </div>
 
@@ -676,7 +676,7 @@ gdalinfo map.pdf <span class="nt">-json</span> | <span class="nb">tr</span> <spa
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">I came across a surprisingly good example of what I am trying to achieve in the R5 (Pacific Southwest Region) MVUM &amp; OSVUM Finder (and full page equivale...</p>
+    <p class="archive__item-excerpt" itemprop="description">I came across a surprisingly good example of what I am trying to achieve in the R5 (Pacific Southwest Region) MVUM &amp; OSVUM Finder (and full-page equivale...</p>
   </article>
 </div>
 

@@ -6,7 +6,7 @@ tags:
   - Python
 ---
 
-In order to stay organized as I collect maps and extract data from them I wanted to create a set of directories organizing every national forest within the state it is (primarily) contained within.
+To stay organized as I collect maps and extract data from them, I wanted to create a set of directories organizing every national forest within the state it is (primarily) contained within.
 
 ## Collect Every Forest
 
@@ -14,7 +14,7 @@ I used two sources to create my list:
 - [Complete List of American National Forests](https://www.treehugger.com/complete-list-of-american-national-forests-1343075) on Treehugger
 - [List of national forests of the United States - Wikipedia](https://en.wikipedia.org/wiki/List_of_national_forests_of_the_United_States)
 
-I then created a text file with all of the raw data, looking like the content below in `List of States and Forests.txt`.
+I then created a text file with all the raw data, looking like the content below in `List of States and Forests.txt`.
 ```markdown
 **Alabama**
 National Forests in Alabama

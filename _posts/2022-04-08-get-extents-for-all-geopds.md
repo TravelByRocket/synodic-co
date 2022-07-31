@@ -7,10 +7,10 @@ tags:
   - gdal
 ---
 
-In a preceding post [GeoJSON form GeoPDF]({% post_url 2022-04-05-geopdf-to-geojson %}) we did some fast work to prove that we could get the data we neede but now we need to dig a little deeper to put it into a format that we think we can use. 
+In a preceding post [GeoJSON form GeoPDF]({% post_url 2022-04-05-geopdf-to-geojson %}) we did some fast work to prove that we could get the data we need, but now we need to dig a little deeper to put it into a format that we think we can use. 
 
 ## All GeoPDF Content to JSON
-Create JSON files containing all of the data retrieved with the GDAL library with the script below.
+Create JSON files containing all the data retrieved with the GDAL library with the script below.
 
 ```python
 # PDF2JSON.py
@@ -90,7 +90,7 @@ with open("parsing failed.txt", 'w') as output:
 ```
 
 ## List Missing Rectangles
-Some files don't give up their contents like the others and they will need to be process by hand later. We can get a list of the files with problems by runnign the script below.
+Some files don't give up their contents like the others, and they will need to be process manually later. We can get a list of the files with problems by running the script below.
 
 ```python
 # ListMissingLatLonExtent.py
@@ -112,7 +112,7 @@ with open("missing rectangle.txt", 'w') as output:
 ```
 
 ## Final Usable Output
-The final result of the JSON that I will use in the app looks like the example below `stelprdb5339604-parsed.json`, which aligns with the raw filename of the GeoPDF. I have added a rotation property because some of the raw PDFs are not oriented with the top up and I don't want to modify the source file every time it is updated so I will track it in the JSON file.
+The final result of the JSON that I will use in the app looks like the example below, `stelprdb5339604-parsed.json`, which aligns with the raw filename of the GeoPDF. I have added a rotation property because some raw PDFs are not oriented with the North at the top, and I would rather not modify the source file every time it is updated, so I will track it in the JSON file.
 
 ```json
 {

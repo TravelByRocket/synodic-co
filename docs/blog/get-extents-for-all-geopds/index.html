@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>From GeoPDFs to Usable Data - Synodic Studio</title>
-<meta name="description" content="In a preceding post GeoJSON form GeoPDF we did some fast work to prove that we could get the data we neede but now we need to dig a little deeper to put it into a format that we think we can use.">
+<meta name="description" content="In a preceding post GeoJSON form GeoPDF we did some fast work to prove that we could get the data we need, but now we need to dig a little deeper to put it into a format that we think we can use.">
 
 
   <meta name="author" content="Bryan Costanza">
@@ -26,7 +26,7 @@
 <meta property="og:url" content="http://localhost:4000/blog/get-extents-for-all-geopds/">
 
 
-  <meta property="og:description" content="In a preceding post GeoJSON form GeoPDF we did some fast work to prove that we could get the data we neede but now we need to dig a little deeper to put it into a format that we think we can use.">
+  <meta property="og:description" content="In a preceding post GeoJSON form GeoPDF we did some fast work to prove that we could get the data we need, but now we need to dig a little deeper to put it into a format that we think we can use.">
 
 
 
@@ -281,7 +281,7 @@
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="From GeoPDFs to Usable Data">
-    <meta itemprop="description" content="In a preceding post GeoJSON form GeoPDF we did some fast work to prove that we could get the data we neede but now we need to dig a little deeper to put it into a format that we think we can use.">
+    <meta itemprop="description" content="In a preceding post GeoJSON form GeoPDF we did some fast work to prove that we could get the data we need, but now we need to dig a little deeper to put it into a format that we think we can use.">
     <meta itemprop="datePublished" content="2022-04-08T00:00:00-06:00">
     
 
@@ -333,10 +333,10 @@
             </nav>
           </aside>
         
-        <p>In a preceding post <a href="/blog/geopdf-to-geojson/">GeoJSON form GeoPDF</a> we did some fast work to prove that we could get the data we neede but now we need to dig a little deeper to put it into a format that we think we can use.</p>
+        <p>In a preceding post <a href="/blog/geopdf-to-geojson/">GeoJSON form GeoPDF</a> we did some fast work to prove that we could get the data we need, but now we need to dig a little deeper to put it into a format that we think we can use.</p>
 
 <h2 id="all-geopdf-content-to-json">All GeoPDF Content to JSON</h2>
-<p>Create JSON files containing all of the data retrieved with the GDAL library with the script below.</p>
+<p>Create JSON files containing all the data retrieved with the GDAL library with the script below.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># PDF2JSON.py
 </span><span class="s">"""Create a JSON of the same base filename of every PDF in the directory, recursively, in-place"""</span>
@@ -414,7 +414,7 @@
 </code></pre></div></div>
 
 <h2 id="list-missing-rectangles">List Missing Rectangles</h2>
-<p>Some files don’t give up their contents like the others and they will need to be process by hand later. We can get a list of the files with problems by runnign the script below.</p>
+<p>Some files don’t give up their contents like the others, and they will need to be process manually later. We can get a list of the files with problems by running the script below.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ListMissingLatLonExtent.py
 </span>
@@ -435,7 +435,7 @@
 </code></pre></div></div>
 
 <h2 id="final-usable-output">Final Usable Output</h2>
-<p>The final result of the JSON that I will use in the app looks like the example below <code class="language-plaintext highlighter-rouge">stelprdb5339604-parsed.json</code>, which aligns with the raw filename of the GeoPDF. I have added a rotation property because some of the raw PDFs are not oriented with the top up and I don’t want to modify the source file every time it is updated so I will track it in the JSON file.</p>
+<p>The final result of the JSON that I will use in the app looks like the example below, <code class="language-plaintext highlighter-rouge">stelprdb5339604-parsed.json</code>, which aligns with the raw filename of the GeoPDF. I have added a rotation property because some raw PDFs are not oriented with the North at the top, and I would rather not modify the source file every time it is updated, so I will track it in the JSON file.</p>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
     </span><span class="nl">"center"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
@@ -585,7 +585,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">In a previous post I was puzzled about why I could not find more regional maps showing where the various MVUM maps were located. If “R5” was (for some reason...</p>
+    <p class="archive__item-excerpt" itemprop="description">In a previous post, I was puzzled about why I could not find more regional maps showing where the various MVUM maps were located. If “R5” was (for some reaso...</p>
   </article>
 </div>
 
@@ -631,7 +631,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">In order to stay organized as I collect maps and extract data from them I wanted to create a set of directories organizing every national forest within the s...</p>
+    <p class="archive__item-excerpt" itemprop="description">To stay organized as I collect maps and extract data from them, I wanted to create a set of directories organizing every national forest within the state it ...</p>
   </article>
 </div>
 
@@ -723,7 +723,7 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">I came across a surprisingly good example of what I am trying to achieve in the R5 (Pacific Southwest Region) MVUM &amp; OSVUM Finder (and full page equivale...</p>
+    <p class="archive__item-excerpt" itemprop="description">I came across a surprisingly good example of what I am trying to achieve in the R5 (Pacific Southwest Region) MVUM &amp; OSVUM Finder (and full-page equivale...</p>
   </article>
 </div>
 

@@ -24,13 +24,13 @@ gallery:
     image_path: /assets/so-much-coffee/gallery/store-image-4.png
 ---
 
-I believe there are no great tools to explore the world of coffee so I set out to make my own. I took a product management approach to designing an app that lets users find the best coffee shops, discover roasters, and navigate roasts among other tasks. After a period of research I developed this app for my thesis in Creative Technologies & Design. 
+I believe there are no great tools to explore the world of coffee, so I set out to make my own. I took a product management approach to designing an app that lets users find the best coffee shops, discover roasters, and navigate roasts among other tasks. After a period of research, I developed this app for my thesis in Creative Technologies & Design. 
 
 Source code available on <a href="https://github.com/TravelByRocket/so-much-coffee">GitHub</a>.
 
 ## Motivation & Background
 
-As a big coffee fan, I believe that there are so many things to enjoy about coffee besides just the caffeine in each of those beans. I wanted to get more into coffee in many ways but it can quickly get very complicated to answer very simple questions. Questions like: 
+As a big coffee fan, I believe that there are so many things to enjoy about coffee besides just the caffeine in each of those beans. I wanted to get more into coffee in many ways, but it can quickly get very complicated to answer basic questions. Questions like: 
 - Where is the closest coffee shop with great coffee? 
 - How can I improve the coffee I make it home? 
 - How do I explore the range of coffee flavors?
@@ -38,7 +38,7 @@ There is no map to explore the complex world of coffee, which is why I set out t
 
 ## Problem Validation
 
-I wanted to solve many problems with my design but I felt that a coffee timer and a shop directory would be the most achievable with my time and skills as well as line up the best with what users were looking for. I found out through interviewing that almost everyone has their own way of finding a coffee shop but I was almost the only person looking for a better coffee brewing timer. When I need to narrow to scope of what I was building I knew what to do.
+I wanted to solve many problems with my design, but I felt that a coffee timer and a shop directory would be the most achievable with my time and skills, as well as line up the best with what users were looking for. I found out through interviewing that almost everyone has their own way of finding a coffee shop, but I was almost the only person looking for a better coffee brewing timer. When I need to narrow to scope of what I was building, I knew what to do.
 
 ![Interview results table](/assets/so-much-coffee/interview-results.png)
 
@@ -61,7 +61,7 @@ This is a modified version of the original product pitch I gave in my User-Cente
 
 ### Exemplars & Competition
 
-Nothing is perfect but scanning through this collection reveals almost everything that I liked and wanted to emulate.
+Nothing is perfect, but scanning through this collection reveals almost everything that I liked and wanted to emulate.
 <!-- https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page -->
 <div style="position:relative;padding-bottom:62.5%;">
 <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" src="https://docs.google.com/presentation/d/e/2PACX-1vThEjsVPKC8aHI-4QoMlLbYrnQnCuScxaD-MA5hSjHl7e5PUQOdz_tzGFMWA60YkI65BznYEFQ5LPJl/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -69,7 +69,7 @@ Nothing is perfect but scanning through this collection reveals almost everythin
 
 ### Mediocre || Unsure
 
-The examples in the section all had some redeeming quality to them but didn't provide a great experience overall.
+The examples in the section all had some redeeming quality to them, but didn't provide a great experience overall.
 
 <div style="position:relative;padding-bottom:62.5%;">
 <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" src="https://docs.google.com/presentation/d/e/2PACX-1vSN0NK1tc56t7uJCarQib1_1g679T-e-0OMdj_-B8VZfoKQdhHfKSNAL-WxStyL2NSKwuYR9gajANcW/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
