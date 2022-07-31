@@ -32,3 +32,10 @@ bundle exec jekyll build
 ```
 
 The main difference I see is to have `sitemap.xml` build with the correct base URL.
+
+## TO DO
+- Confirm that site is being served from my build and not building again on GH Pages
+	- Better yet, find how to use a remote them without reloading/re-caching on local machine
+- Ensure that site is rebuilt for GH Pages in the latest commit before pushing
+- Commit `/docs` only on push
+- Show a "date last built" to confirm site build update
