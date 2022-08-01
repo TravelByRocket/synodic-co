@@ -40,6 +40,8 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-postfiles (3.1.0)
       jekyll (>= 3.8.6, < 5)
+    jekyll-relative-links (0.6.1)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.4.0)
@@ -91,6 +93,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.7)
   jekyll-postfiles
+  jekyll-relative-links
   kramdown-parser-gfm
   minimal-mistakes-jekyll
   webrick

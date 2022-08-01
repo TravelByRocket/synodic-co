@@ -7,4 +7,5 @@ gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem 'jekyll-postfiles'
+  gem 'jekyll-relative-links'
 end
