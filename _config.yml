@@ -108,7 +108,7 @@ author:
   name             : "Bryan Costanza"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "iOS Developer && Creative Technologist && Designer"
-  location         : "Denver, Colorado | Europe"
+  location         : "Boulder, Colorado"
   email            : "bryan.yeprd@synodic.co"
   links:
     - label: "GitHub"
@@ -117,15 +117,9 @@ author:
     - label: "Projects"
       icon: "fas fa-microchip"
       url: "http://kj6.dev"
-    - label: "Notes"
-      icon: "fas fa-brain"
-      url: "http://bryancostanza.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/bryancostanza/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/bryancostanza"
 
 # Site Footer
 footer:
@@ -136,15 +130,9 @@ footer:
     - label: "Projects"
       icon: "fas fa-microchip"
       url: "http://kj6.dev"
-    - label: "Notes"
-      icon: "fas fa-brain"
-      url: "http://bryancostanza.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/bryancostanza/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/bryancostanza"
 
 
 # Reading Files
